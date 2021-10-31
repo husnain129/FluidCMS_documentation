@@ -45,7 +45,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "user",
+            docId: "model",
             position: "left",
             label: "API Documentation",
           },
@@ -64,7 +64,7 @@ const config = {
             items: [
               {
                 label: "API Documentation",
-                to: "/docs/user",
+                to: "/docs/model",
               },
             ],
           },
