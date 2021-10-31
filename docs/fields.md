@@ -55,8 +55,6 @@ _<br /> Provide Access Token in Authorization Header._
 https://picaso-cms.herokuapp.com/field/617e586fd61e1d0a1719ef48
 ```
 
-````
-
 And response will be like this
 
 ```shell
@@ -75,7 +73,7 @@ And response will be like this
     }
 }
 
-````
+```
 
 ## Route Get All Field Of model
 
@@ -88,8 +86,6 @@ _<br /> NOTE: Provide model id in URL to get all fields of that model._
 ```shell
 https://picaso-cms.herokuapp.com/field/617d796340c7dca02c415916
 ```
-
-````
 
 And response will be like this
 
@@ -130,7 +126,7 @@ And response will be like this
     ]
 }
 
-````
+```
 
 ## Route For Update Model
 

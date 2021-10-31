@@ -65,8 +65,6 @@ _<br /> Provide Access Token in Authorization Header._
 https://picaso-cms.herokuapp.com/record/617e6858d61e1d0a1719efc2
 ```
 
-````
-
 And response will be like this
 
 ```shell
@@ -87,7 +85,7 @@ And response will be like this
     }
 }
 
-````
+```
 
 ## Route Get All record Of model
 
@@ -100,8 +98,6 @@ _<br /> NOTE: Provide model id in URL to get all records of that model._
 ```shell
 https://picaso-cms.herokuapp.com/record/all/617d796340c7dca02c415916
 ```
-
-````
 
 And response will be like this
 
@@ -152,7 +148,7 @@ And response will be like this
     ]
 }
 
-````
+```
 
 ## Route For Update Record
 

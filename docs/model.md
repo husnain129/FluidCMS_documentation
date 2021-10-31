@@ -46,8 +46,6 @@ _<br /> Provide Access Token in Authorization Header._
 https://picaso-cms.herokuapp.com/model/617e53efd61e1d0a1719eee8
 ```
 
-````
-
 And response will be like this
 
 ```shell
@@ -62,7 +60,7 @@ And response will be like this
     }
 }
 
-````
+```
 
 ## Route For Update Model
 
