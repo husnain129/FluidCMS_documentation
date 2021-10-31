@@ -45,7 +45,7 @@ const config = {
         items: [
           {
             type: "doc",
-            docId: "model",
+            docId: "fields",
             position: "left",
             label: "API Documentation",
           },
@@ -64,7 +64,7 @@ const config = {
             items: [
               {
                 label: "API Documentation",
-                to: "/docs/model",
+                to: "/docs/field",
               },
             ],
           },
@@ -95,7 +95,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with FluiCMS.`,
       },
       prism: {
         theme: lightCodeTheme,

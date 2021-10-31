@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# ~Fields API's~
+# Fields API's
 
 Let's create **New Fields For Model**.
 

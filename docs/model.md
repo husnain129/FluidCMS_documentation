@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# ~Model API's~
+# Model API's
 
 Let's create **New Model For Project**.
 

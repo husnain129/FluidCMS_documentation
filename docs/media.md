@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# ~Media API's~
+# Media API's
 
 Let's Post **New Image**.
 
@@ -19,7 +19,7 @@ If you are using axios then you can send this request as
 
 ```shell
 {
-    curl --authorization Bearer_Token full_access_token https://picaso-cms.herokuapp.com/image
+    curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://picaso-cms.herokuapp.com/image
 }
 
 ```
@@ -30,7 +30,20 @@ In response will look like this.
 {
     "ok": true,
     "data": {
-        "model_id": "617e53efd61e1d0a1719eee8"
+        "sm": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680820/rpedktoawqfwizbf1j1u.jpg",
+            "cdn_id": "rpedktoawqfwizbf1j1u"
+        },
+        "md": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680822/mruvsscc7xsnjzn3fw4t.jpg",
+            "cdn_id": "mruvsscc7xsnjzn3fw4t"
+        },
+        "raw": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680827/v9lynmd6kuqcpfm3vwtg.jpg",
+            "cdn_id": "v9lynmd6kuqcpfm3vwtg"
+        },
+        "_id": "617e823bda51edec08f1731d",
+        "__v": 0
     }
 }
 ```
@@ -53,11 +66,19 @@ And response will be like this
 {
     "ok": true,
     "data": {
-        "model": {
-            "name": "Demo",
-            "alias": "demo",
-            "fields": []
-        }
+        "sm": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680820/rpedktoawqfwizbf1j1u.jpg",
+            "cdn_id": "rpedktoawqfwizbf1j1u"
+        },
+        "md": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680822/mruvsscc7xsnjzn3fw4t.jpg",
+            "cdn_id": "mruvsscc7xsnjzn3fw4t"
+        },
+        "raw": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680827/v9lynmd6kuqcpfm3vwtg.jpg",
+            "cdn_id": "v9lynmd6kuqcpfm3vwtg"
+        },
+        "_id": "617e823bda51edec08f1731d"
     }
 }
 
@@ -79,7 +100,20 @@ And response will be like this
 {
     "ok": true,
     "data": {
-        "message": "Image updated"
+        "sm": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680982/exkdkpp6niyx6ryvh9q5.jpg",
+            "cdn_id": "exkdkpp6niyx6ryvh9q5"
+        },
+        "md": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680979/bykadlrayu9oagv2emxn.jpg",
+            "cdn_id": "bykadlrayu9oagv2emxn"
+        },
+        "raw": {
+            "url": "http://res.cloudinary.com/hunnykhan/image/upload/v1635680983/dspxsysbxa78z1jwm0yb.jpg",
+            "cdn_id": "dspxsysbxa78z1jwm0yb"
+        },
+        "_id": "617e823bda51edec08f1731d",
+        "__v": 0
     }
 }
 
