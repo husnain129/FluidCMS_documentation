@@ -11,7 +11,7 @@ Let's create **New Fields For Model**.
 Here is Create new Fields EndPoint
 
 ```shell
-https://picaso-cms.herokuapp.com/field
+https://api-fluidcms.herokuapp.com/field
 ```
 
 _Provide Full Access Token in Authorization Header_
@@ -52,7 +52,7 @@ _You can access single Field by Full access token or only Read Token._
 _<br /> Provide Access Token in Authorization Header._
 
 ```shell
-https://picaso-cms.herokuapp.com/field/617e586fd61e1d0a1719ef48
+https://api-fluidcms.herokuapp.com/field/617e586fd61e1d0a1719ef48
 ```
 
 And response will be like this
@@ -84,7 +84,7 @@ _<br /> Provide Access Token in Authorization Header._
 _<br /> NOTE: Provide model id in URL to get all fields of that model._
 
 ```shell
-https://picaso-cms.herokuapp.com/field/617d796340c7dca02c415916
+https://api-fluidcms.herokuapp.com/field/617d796340c7dca02c415916
 ```
 
 And response will be like this
@@ -135,7 +135,7 @@ Please _Provide Full access token in authorization Header to update Model._
 _Provide model Id in url._
 
 ```shell
-https://picaso-cms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
 ```
 
 You can only update Model Title through this endpoint. <br />
@@ -166,7 +166,7 @@ Here is Get All Project EndPoint.
 Please _Provide Full access token in authorization Header to Get ALL Models_.
 
 ```shell
-https://picaso-cms.herokuapp.com/model/all
+https://api-fluidcms.herokuapp.com/model/all
 ```
 
 And response will be like this
@@ -196,7 +196,7 @@ Please _Provide Full Access token in authorization Header to Delete Field_.
 Please _Provide field id in URL to Delete Field_.
 
 ```shell
-https://picaso-cms.herokuapp.com/field/617d79afa1d0e22e943d9ca8
+https://api-fluidcms.herokuapp.com/field/617d79afa1d0e22e943d9ca8
 ```
 
 Response will be like this
@@ -210,4 +210,4 @@ Response will be like this
 
 <!-- ![alt text](/img/exp.png) -->
 
-Your API Base URL is `https://picaso-cms.herokuapp.com`.
+Your API Base URL is `https://api-fluidcms.herokuapp.com`.

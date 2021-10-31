@@ -11,7 +11,7 @@ Let's Post **New Image**.
 Here is Create new Image EndPoint
 
 ```shell
-https://picaso-cms.herokuapp.com/image
+https://api-fluidcms.herokuapp.com/image
 ```
 
 _Provide Full Access Token in Authorization Header_
@@ -19,7 +19,7 @@ If you are using axios then you can send this request as
 
 ```shell
 {
-    curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://picaso-cms.herokuapp.com/image
+    curl -H "Authorization: Bearer <ACCESS_TOKEN>" https://api-fluidcms.herokuapp.com/image
 }
 
 ```
@@ -57,7 +57,7 @@ _You can access single Record by Full access token._
 _<br /> Provide Access Token in Authorization Header and media Id in URL._
 
 ```shell
-https://picaso-cms.herokuapp.com/media/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/media/617e53efd61e1d0a1719eee8
 ```
 
 And response will be like this
@@ -91,7 +91,7 @@ Please _Provide **Full access token** in authorization Header to update Image._<
 **NOTE: Provide Image CDN_Id in url.**
 
 ```shell
-https://picaso-cms.herokuapp.com/image/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/image/617e53efd61e1d0a1719eee8
 ```
 
 And response will be like this
@@ -121,4 +121,4 @@ And response will be like this
 
 <!-- ![alt text](/img/exp.png) -->
 
-Your API Base URL is `https://picaso-cms.herokuapp.com`.
+Your API Base URL is `https://api-fluidcms.herokuapp.com`.

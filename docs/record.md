@@ -11,7 +11,7 @@ Let's create **New Record For Field**.
 Here is Create new Fields EndPoint
 
 ```shell
-https://picaso-cms.herokuapp.com/field
+https://api-fluidcms.herokuapp.com/field
 ```
 
 _Provide Full Access Token in Authorization Header_
@@ -62,7 +62,7 @@ _You can access single Record by Full access token or only Read Token._
 _<br /> Provide Access Token in Authorization Header._
 
 ```shell
-https://picaso-cms.herokuapp.com/record/617e6858d61e1d0a1719efc2
+https://api-fluidcms.herokuapp.com/record/617e6858d61e1d0a1719efc2
 ```
 
 And response will be like this
@@ -96,7 +96,7 @@ _<br /> Provide Access Token in Authorization Header._
 _<br /> NOTE: Provide model id in URL to get all records of that model._
 
 ```shell
-https://picaso-cms.herokuapp.com/record/all/617d796340c7dca02c415916
+https://api-fluidcms.herokuapp.com/record/all/617d796340c7dca02c415916
 ```
 
 And response will be like this
@@ -157,7 +157,7 @@ Please _Provide Full access token in authorization Header to update Record._
 _Provide Record Id in url._
 
 ```shell
-https://picaso-cms.herokuapp.com/record/617e6858d61e1d0a1719efc2
+https://api-fluidcms.herokuapp.com/record/617e6858d61e1d0a1719efc2
 ```
 
 You can only update Field Value through this endpoint <br />
@@ -205,7 +205,7 @@ Please _Provide Full Access token in authorization Header to Delete Record_.
 Please _Provide Record id in URL to Delete Record_.
 
 ```shell
-https://picaso-cms.herokuapp.com/record/617e6858d61e1d0a1719efc2
+https://api-fluidcms.herokuapp.com/record/617e6858d61e1d0a1719efc2
 ```
 
 Response will be like this
@@ -221,4 +221,4 @@ Response will be like this
 
 <!-- ![alt text](/img/exp.png) -->
 
-Your API Base URL is `https://picaso-cms.herokuapp.com`.
+Your API Base URL is `https://api-fluidcms.herokuapp.com`.

@@ -11,7 +11,7 @@ Let's create **New Model For Project**.
 Here is Create new Model EndPoint
 
 ```shell
-https://picaso-cms.herokuapp.com/project
+https://api-fluidcms.herokuapp.com/project
 ```
 
 Provide Project title to create new Project.
@@ -43,7 +43,7 @@ _You can access single model by Full access token or only Read Token._
 _<br /> Provide Access Token in Authorization Header._
 
 ```shell
-https://picaso-cms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
 ```
 
 And response will be like this
@@ -69,7 +69,7 @@ Please _Provide Full access token in authorization Header to update Model._
 _Provide model Id in url._
 
 ```shell
-https://picaso-cms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
 ```
 
 You can only update Model Title through this endpoint. <br />
@@ -100,7 +100,7 @@ Here is Get All Project EndPoint.
 Please _Provide Full access token in authorization Header to Get ALL Models_.
 
 ```shell
-https://picaso-cms.herokuapp.com/model/all
+https://api-fluidcms.herokuapp.com/model/all
 ```
 
 And response will be like this
@@ -129,7 +129,7 @@ Here is Deleting EndPoint through User Token.
 Please _Provide user token in authorization Header to Delete Project_.
 
 ```shell
-https://picaso-cms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
 ```
 
 Response will be like this
@@ -146,4 +146,4 @@ Response will be like this
 
 <!-- ![alt text](/img/exp.png) -->
 
-Your API Base URL is `https://picaso-cms.herokuapp.com`.
+Your API Base URL is `https://api-fluidcms.herokuapp.com`.
