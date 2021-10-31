@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Records API's
+# Records Api
 
 Let's create **New Record For Field**.
 

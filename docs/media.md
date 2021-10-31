@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Media API's
+# Media Api
 
 Let's Post **New Image**.
 
