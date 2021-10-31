@@ -7,13 +7,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "FluidCMS documentation",
-  url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/docs/user",
-  onBrokenLinks: "throw",
+  url: "https://m-h9.github.io/",
+  baseUrl: "/FluidCMS_documentation/",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/logo1.svg",
-  organizationName: "fluidCMS", // Usually your GitHub org/user name.
-  projectName: "FluidCMS", // Usually your repo name.
+  organizationName: "m-h9", // Usually your GitHub org/user name.
+  projectName: "FluidCMS_documentation", // Usually your repo name.
 
   presets: [
     [
@@ -23,7 +23,7 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl: "https://github.com/facebook/docusaurus/edit/main/website/",
+          editUrl: "https://github.com/m-h9/FluidCMS_documentation",
         },
 
         theme: {
@@ -82,6 +82,15 @@ const config = {
               {
                 label: "Twitter",
                 href: "https://twitter.com/docusaurus",
+              },
+            ],
+          },
+          {
+            title: "More",
+            items: [
+              {
+                label: "GitHub",
+                href: "https://github.com/m-h9/FluidCMS_documentation",
               },
             ],
           },
