@@ -8,7 +8,7 @@
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
-    "github": "cmd /C set GIT_USER=m-h9 && yarn deploy",
+    "github": "cmd /C \"set \"GIT_USER=m-h9\" && yarn deploy\"",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
