@@ -46,13 +46,11 @@ In response will look like this.
 
 ## Route Get Only One Field
 
-Here is single field EndPoint
-
-_You can access single Field by Full access token or only Read Token._
-_<br /> Provide Access Token in Authorization Header._
+_Provide Access Token in Authorization Header.<br />_
+**NOTE: Provide Field identifier and Model identifier in URL to get field**
 
 ```shell
-https://api-fluidcms.herokuapp.com/field/617e586fd61e1d0a1719ef48
+https://api-fluidcms.herokuapp.com/field/name/demo1
 ```
 
 And response will be like this
@@ -79,12 +77,11 @@ And response will be like this
 
 Here is ALl field EndPoint
 
-_You can access single Field by Full access token or only Read Token._
-_<br /> Provide Access Token in Authorization Header._
-_<br /> NOTE: Provide model id in URL to get all fields of that model._
+_<br /> Provide Access Token in Authorization Header._<br />\_
+**NOTE: Provide Model Identifiers to get all fields of that model.**
 
 ```shell
-https://api-fluidcms.herokuapp.com/field/617d796340c7dca02c415916
+https://api-fluidcms.herokuapp.com/field/demo1
 ```
 
 And response will be like this
@@ -128,14 +125,14 @@ And response will be like this
 
 ```
 
-## Route For Update Model
+## Route For Update Field
 
 Here is Model Update EndPoint.
-Please _Provide Full access token in authorization Header to update Model._
-_Provide model Id in url._
+_Provide Access Token in Authorization Header.<br />_
+**NOTE: Provide Field identifier and Model identifier in URL to Update Field**
 
 ```shell
-https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/field/name/demo1
 ```
 
 You can only update Model Title through this endpoint. <br />
@@ -153,9 +150,7 @@ And response will be like this
 ```shell
 {
     "ok": true,
-    "data": {
-        "message": "Model updated"
-    }
+    "data": "Field updated"
 }
 
 ```
@@ -163,10 +158,11 @@ And response will be like this
 ## Route For Get All Model
 
 Here is Get All Project EndPoint.
-Please _Provide Full access token in authorization Header to Get ALL Models_.
+_Provide Access Token in Authorization Header.<br />_
+**NOTE: Provide Model identifier in URL to Get All Fields for that Model**
 
 ```shell
-https://api-fluidcms.herokuapp.com/model/all
+https://api-fluidcms.herokuapp.com/field/all/demo1
 ```
 
 And response will be like this
@@ -174,29 +170,40 @@ And response will be like this
 ```shell
 {
     "ok": true,
-    "data": {
-        "models": [
-            {
-                "_id": "617e53efd61e1d0a1719eee8",
-                "name": "Demo",
-                "alias": "Demo2",
-                "fields": []
+    "data": [
+        {
+            "_id": "61803c73ec8645096e29dda5",
+            "name": "image",
+            "alias": "image",
+            "field_type": 0,
+            "validation": {
+                "isRequired": true,
+                "regex": ""
             }
-        ]
-    }
+        },
+        {
+            "_id": "61803ecd52bf9a7723b55631",
+            "name": "name",
+            "alias": "name",
+            "field_type": 0,
+            "validation": {
+                "isRequired": true,
+                "regex": ""
+            }
+        }
+    ]
 }
-
 
 ```
 
 ## Route For Deleting Field
 
 Here is Deleting EndPoint through Full access Token.
-Please _Provide Full Access token in authorization Header to Delete Field_.
-Please _Provide field id in URL to Delete Field_.
+Please _Provide Access Token in Authorization Header.<br />_
+Please **Provide Field Identifier and Model Identifier in URL to Delete Field**.
 
 ```shell
-https://api-fluidcms.herokuapp.com/field/617d79afa1d0e22e943d9ca8
+https://api-fluidcms.herokuapp.com/field/image/demo1
 ```
 
 Response will be like this
@@ -204,7 +211,7 @@ Response will be like this
 ```shell
 {
     "ok": true,
-    "data": "Field with 617d79afa1d0e22e943d9ca8 deleted"
+    "data": "Field deleted"
 }
 ```
 

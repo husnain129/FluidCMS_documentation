@@ -38,12 +38,12 @@ In response will look like this.
 
 ## Route Get Only One Model
 
-Here is Ger single model EndPoint
-_You can access single model by Full access token or only Read Token._
 _<br /> Provide Access Token in Authorization Header._
 
+Here is Getting single model EndPoint **Provide model identifier in URL**
+
 ```shell
-https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/demo
 ```
 
 And response will be like this
@@ -64,12 +64,12 @@ And response will be like this
 
 ## Route For Update Model
 
-Here is Model Update EndPoint.
-Please _Provide Full access token in authorization Header to update Model._
-_Provide model Id in url._
+_Provide Full Access Token in Authorization Header_
+
+**Provide model identifier in URL**
 
 ```shell
-https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/demo
 ```
 
 You can only update Model Title through this endpoint. <br />
@@ -126,10 +126,12 @@ And response will be like this
 ## Route For Deleting Model
 
 Here is Deleting EndPoint through User Token.
-Please _Provide user token in authorization Header to Delete Project_.
+
+_Provide Full Access Token in Authorization Header_ <br />
+**Provide model identifier in URL**
 
 ```shell
-https://api-fluidcms.herokuapp.com/model/617e53efd61e1d0a1719eee8
+https://api-fluidcms.herokuapp.com/model/Demo2
 ```
 
 Response will be like this
