@@ -10,8 +10,17 @@ Let's create **New Fields For Model**.
 
 Here is Create new Fields EndPoint
 
+_Provide Full Access Token in Authorization Header_ <br />
+**Provide model identifier in URL**
+
 ```shell
-https://api-fluidcms.herokuapp.com/field
+https://api-fluidcms.herokuapp.com/field/<modelAlias>
+```
+
+And URL will look like this.
+
+```shell
+https://api-fluidcms.herokuapp.com/field/Demo2
 ```
 
 _Provide Full Access Token in Authorization Header_
@@ -20,7 +29,6 @@ Provide Following data to create new Field.
 
 ```shell
 {
-    "model_id":"617d796340c7dca02c415916",
     "name":"language",
     "alias":"language",
     "field_type":0,
@@ -50,7 +58,13 @@ _Provide Access Token in Authorization Header.<br />_
 **NOTE: Provide Field identifier and Model identifier in URL to get field**
 
 ```shell
-https://api-fluidcms.herokuapp.com/field/name/demo1
+https://api-fluidcms.herokuapp.com/field/<fieldIdAlias>/<modelAlias>
+```
+
+And URL will look like this.
+
+```shell
+https://api-fluidcms.herokuapp.com/field/language/demo1
 ```
 
 And response will be like this
@@ -61,8 +75,8 @@ And response will be like this
     "data": {
         "_id": "617e586fd61e1d0a1719ef48",
         "model_id": "617d796340c7dca02c415916",
-        "name": "Demo",
-        "alias": "Demo",
+        "name": "language",
+        "alias": "language",
         "field_type": 0,
         "validation": {
             "isRequired": true,
@@ -77,8 +91,14 @@ And response will be like this
 
 Here is ALl field EndPoint
 
-_<br /> Provide Access Token in Authorization Header._<br />\_
-**NOTE: Provide Model Identifiers to get all fields of that model.**
+_Provide Full Access Token in Authorization Header_ <br />
+**Provide model identifier in URL**
+
+```shell
+https://api-fluidcms.herokuapp.com/field/<modelAlias>
+```
+
+URL will look like this.
 
 ```shell
 https://api-fluidcms.herokuapp.com/field/demo1
@@ -127,12 +147,17 @@ And response will be like this
 
 ## Route For Update Field
 
-Here is Model Update EndPoint.
 _Provide Access Token in Authorization Header.<br />_
-**NOTE: Provide Field identifier and Model identifier in URL to Update Field**
+**NOTE: Provide Field identifier and Model identifier in URL to Update field**
 
 ```shell
-https://api-fluidcms.herokuapp.com/field/name/demo1
+https://api-fluidcms.herokuapp.com/field/<fieldIdAlias>/<modelAlias>
+```
+
+And URL will look like this.
+
+```shell
+https://api-fluidcms.herokuapp.com/field/language/demo1
 ```
 
 You can only update Model Title through this endpoint. <br />
@@ -158,8 +183,15 @@ And response will be like this
 ## Route For Get All Model
 
 Here is Get All Project EndPoint.
-_Provide Access Token in Authorization Header.<br />_
-**NOTE: Provide Model identifier in URL to Get All Fields for that Model**
+
+_Provide Full Access Token in Authorization Header_ <br />
+**Provide model identifier in URL**
+
+```shell
+https://api-fluidcms.herokuapp.com/field/<modelAlias>
+```
+
+And URL will look like this.
 
 ```shell
 https://api-fluidcms.herokuapp.com/field/all/demo1
@@ -200,10 +232,17 @@ And response will be like this
 
 Here is Deleting EndPoint through Full access Token.
 Please _Provide Access Token in Authorization Header.<br />_
-Please **Provide Field Identifier and Model Identifier in URL to Delete Field**.
+
+**NOTE: Provide Field identifier and Model identifier in URL to Delte field**
 
 ```shell
-https://api-fluidcms.herokuapp.com/field/image/demo1
+https://api-fluidcms.herokuapp.com/field/<fieldIdAlias>/<modelAlias>
+```
+
+And URL will look like this.
+
+```shell
+https://api-fluidcms.herokuapp.com/field/language/demo1
 ```
 
 Response will be like this

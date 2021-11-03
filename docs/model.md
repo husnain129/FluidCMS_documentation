@@ -43,6 +43,12 @@ _<br /> Provide Access Token in Authorization Header._
 Here is Getting single model EndPoint **Provide model identifier in URL**
 
 ```shell
+https://api-fluidcms.herokuapp.com/model/<modelAlias>
+```
+
+And URL will look like this.
+
+```shell
 https://api-fluidcms.herokuapp.com/model/demo
 ```
 
@@ -67,6 +73,12 @@ And response will be like this
 _Provide Full Access Token in Authorization Header_
 
 **Provide model identifier in URL**
+
+```shell
+https://api-fluidcms.herokuapp.com/model/<modelAlias>
+```
+
+And URL will look like this.
 
 ```shell
 https://api-fluidcms.herokuapp.com/model/demo
@@ -129,6 +141,12 @@ Here is Deleting EndPoint through User Token.
 
 _Provide Full Access Token in Authorization Header_ <br />
 **Provide model identifier in URL**
+
+```shell
+https://api-fluidcms.herokuapp.com/model/<modelAlias>
+```
+
+And URL will look like this.
 
 ```shell
 https://api-fluidcms.herokuapp.com/model/Demo2

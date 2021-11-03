@@ -8,22 +8,26 @@ Let's create **New Record For Field**.
 
 ## Route For Create New Record
 
-Here is Create new Fields EndPoint
+_Provide Full Access Token in Authorization Header_ <br />
+**Provide model identifier in URL**
 
 ```shell
-https://api-fluidcms.herokuapp.com/field
+https://api-fluidcms.herokuapp.com/record/<modelAlias>
 ```
 
-_Provide Full Access Token in Authorization Header_
+And URL will look like this.
+
+```shell
+https://api-fluidcms.herokuapp.com/record/demo1
+```
 
 Provide Following data to create new Record.
 
 ```shell
 {
-    "model_id":"617d796340c7dca02c415916",
     "fields":[
         {
-        "field_id":"617e586fd61e1d0a1719ef48",
+        "field_alias":"profile",
         "value":"asdb"
         }
     ]
@@ -92,11 +96,18 @@ And response will be like this
 Here is All record EndPoint
 
 _You can access single record by Full access token or only Read Token._
-_<br /> Provide Access Token in Authorization Header._
-_<br /> NOTE: Provide model id in URL to get all records of that model._
+
+_Provide Full Access Token in Authorization Header_ <br />
+**Provide model identifier in URL**
 
 ```shell
-https://api-fluidcms.herokuapp.com/record/all/617d796340c7dca02c415916
+https://api-fluidcms.herokuapp.com/record/<modelAlias>
+```
+
+And URL will look like this.
+
+```shell
+https://api-fluidcms.herokuapp.com/record/all/demo1
 ```
 
 And response will be like this
