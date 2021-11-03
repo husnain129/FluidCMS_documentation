@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Model Api
 
 Let's create **New Model For Project**.
@@ -169,8 +165,6 @@ Response will be like this
 Your API Base URL is `https://api-fluidcms.herokuapp.com`.
 
 ---
-
-## sidebar_position: 1
 
 # Fields Api
 
@@ -429,8 +423,6 @@ Response will be like this
 Your API Base URL is `https://api-fluidcms.herokuapp.com`.
 
 ---
-
-## sidebar_position: 1
 
 # Records Api
 
