@@ -117,45 +117,18 @@ And response will be like this
     "ok": true,
     "data": [
         {
-            "_id": "617d7aa17b812ba422d0999c",
-            "fields": [
-                {
-                    "field_id": "617da4e3e3683e968b6caf85",
-                    "value": ""
-                },
-                {
-                    "field_id": "617e586fd61e1d0a1719ef48",
-                    "value": ""
-                }
-            ]
-        },
-        {
-            "_id": "617d7ad331de61d4246862ea",
-            "fields": [
-                {
-                    "field_id": "617da4e3e3683e968b6caf85",
-                    "value": ""
-                },
-                {
-                    "field_id": "617e586fd61e1d0a1719ef48",
-                    "value": ""
-                }
-            ]
-        },
+            "_id": "617da4e3e3683e968b6caf85",
+            "pubg": "good game",
+            "Demo": "testing phase",
+            "language": "python",
 
+        },
         {
-            "_id": "617e6858d61e1d0a1719efc2",
-            "fields": [
-                {
-                    "field_id": "617da4e3e3683e968b6caf85",
-                    "value": ""
-                },
-                {
-                    "field_id": "617e586fd61e1d0a1719ef48",
-                    "value": "asdb"
-                }
-            ]
-        }
+            "_id": "617e586fd61e1d0a1719ef48",
+            "pubg": "best",
+            "Demo": "testing",
+            "language": "java",
+        },
     ]
 }
 
