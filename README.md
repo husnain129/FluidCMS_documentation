@@ -275,35 +275,18 @@ And response will be like this
     "ok": true,
     "data": [
         {
-            "_id": "617d79afa1d0e22e943d9ca8",
-            "name": "pubg",
-            "alias": "pubg",
-            "field_type": 0,
-            "validation": {
-                "isRequired": true,
-                "regex": "abc"
-            }
-        },
-        {
             "_id": "617da4e3e3683e968b6caf85",
-            "name": "language",
-            "alias": "language",
-            "field_type": 0,
-            "validation": {
-                "isRequired": true,
-                "regex": "[0-9]+"
-            }
+            "pubg": "good game",
+            "Demo": "testing phase",
+            "language": "python",
+
         },
         {
             "_id": "617e586fd61e1d0a1719ef48",
-            "name": "Demo",
-            "alias": "Demo",
-            "field_type": 0,
-            "validation": {
-                "isRequired": true,
-                "regex": ""
-            }
-        }
+            "pubg": "best",
+            "Demo": "testing",
+            "language": "java",
+        },
     ]
 }
 
